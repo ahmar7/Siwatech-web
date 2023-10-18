@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e947784.css",
+    "main.js": "/static/js/main.334c22e0.js",
+    "static/media/OpenSans-Bold.ttf": "/static/media/OpenSans-Bold.fc10ccf11a61bac919b9.ttf",
+    "static/media/OpenSans-ExtraBold.ttf": "/static/media/OpenSans-ExtraBold.7a42b1f780edcefed802.ttf",
+    "static/media/OpenSans-Light.ttf": "/static/media/OpenSans-Light.ec993defe70da9dbbc3f.ttf",
+    "static/media/OpenSans-Semibold.ttf": "/static/media/OpenSans-Semibold.d31d0aaa8d4384de5eeb.ttf",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.9ccd5e1b1dbea150336d.ttf",
+    "static/media/shopware.svg": "/static/media/shopware.93f7d9ec56f5df865b2a.svg",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.6bede58e856278b0f8f1.ttf",
+    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.17451a4c1cd55e33ac57.ttf",
+    "static/media/payment_sprite.svg": "/static/media/payment_sprite.8cb8deee3ffb95acf712.svg",
+    "static/media/sprite.jpg": "/static/media/sprite.9213205e3295ef16c1c9.jpg",
+    "static/media/shopware.ttf": "/static/media/shopware.e2e1528cd7865793fb86.ttf",
+    "static/media/OpenSans-Light.woff2": "/static/media/OpenSans-Light.7e2add23a18c1525c01a.woff2",
+    "static/media/test1.png": "/static/media/test1.2cfc09c653589fb5b584.png",
+    "static/media/albert.png": "/static/media/albert.0093b131424d26850508.png",
+    "static/media/shopicons.svg": "/static/media/shopicons.f615aadf0d7547b25e72.svg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/shopicons.ttf": "/static/media/shopicons.d3d75a6fb168f1d74b26.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "static/media/Logo.webp": "/static/media/Logo.e1f0fc9120948acdb58c.webp",
+    "main.5e947784.css.map": "/static/css/main.5e947784.css.map",
+    "main.334c22e0.js.map": "/static/js/main.334c22e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e947784.css",
+    "static/js/main.334c22e0.js"
+  ]
+}

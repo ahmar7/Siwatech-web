@@ -1,0 +1,55 @@
+.ReactModal__Overlay {
+  z-index: 99999999999999;
+}
+.ReactModal__Content {
+  width: 400px;
+  padding: 30px;
+}
+.ReactModal__Content h1 {
+  font-size: 21px;
+
+  margin-bottom: 20px !important;
+  margin: 0;
+}
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  outline: none;
+}
+.no-ect p {
+  margin: 0;
+  margin-top: 10px;
+}
+.btn-send {
+  margin-top: 10px;
+  background-color: #9e1324;
+  padding: 8px 16px;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.btn-send:hover {
+  border: 1px solid #9e1324;
+  color: #9e1324;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+}
+.btn-con {
+  margin-top: 10px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .ReactModal__Content {
+    width: 90%;
+    padding: 15px;
+  }
+  .ReactModal__Content h1 {
+    font-size: 18px;
+  }
+}

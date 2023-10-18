@@ -1,0 +1,10 @@
+:root {
+  --menu-blue: #3b5998;
+  --menu-blueHover: #042c83;
+  --menu-linear: #243e74;
+}
+
+.active.navigation--link {
+  background: var(--menu-blue);
+  color: #fff;
+}
