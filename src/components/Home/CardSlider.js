@@ -45,7 +45,7 @@ const CardSlider = () => {
     },
     {
       img: "https://siwatec-gmbh.de/resources/slider/art5.png",
-      name: "Solarmodul 430Wp E6 NeON H",
+      name: "LG Electronics Solarmodul 430Wp E6 NeON H",
       price: "299,99 €",
     },
     {
@@ -55,8 +55,8 @@ const CardSlider = () => {
     },
     {
       img: "https://siwatec-gmbh.de/resources/slider/art7.png",
-      name: "LG Chem RESU 10H Prime Energiespeicher",
-      price: "4990,99 €",
+      name: "SMA Sunny Tripower x 12-50, STP 12-50 Solar Wechselrichter",
+      price: "2290,99 €",
     },
   ];
   return (
@@ -81,7 +81,7 @@ const CardSlider = () => {
                 <div className="box--content">
                   <div className="product--badges"></div>
                   <div className="product--info">
-                    <Link to="/product-detail/id" className="product--image">
+                    <Link to="/UnsereProdukte" className="product--image">
                       <span className="image--element">
                         <span className="image--media">
                           <picture>

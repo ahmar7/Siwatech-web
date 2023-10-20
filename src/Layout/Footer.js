@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-
+import touchFooter from "../assets/img/image.jpeg";
 const Footer = () => {
   const [activeClass, setactiveClass] = useState(false);
   window.addEventListener("scroll", function () {
@@ -27,12 +27,12 @@ const Footer = () => {
                 <li className="navigation--entry" role="menuitem">
                   <a
                     className="navigation--link"
-                    href="https://www.siwatec-gmbh.de/widerrufsbelehrung"
-                    title="Right of withdrawal"
+                    href="https://www.siwatec-gmbh.de/UnsereProdukte"
+                    title="UnsereProdukte"
                   >
                     <font style={{ verticalAlign: "inherit" }}>
                       <font style={{ verticalAlign: "inherit" }}>
-                        Right of withdrawal
+                        Produktpalette
                       </font>
                     </font>
                   </a>
@@ -40,12 +40,12 @@ const Footer = () => {
                 <li className="navigation--entry" role="menuitem">
                   <a
                     className="navigation--link"
-                    href="https://www.siwatec-gmbh.de/bestellung-bezahlung"
-                    title="Order & Payment"
+                    href="https://www.siwatec-gmbh.de/rechtliches"
+                    title="UnsereAGB"
                   >
                     <font style={{ verticalAlign: "inherit" }}>
                       <font style={{ verticalAlign: "inherit" }}>
-                        Order &amp; Payment
+                        Unsere AGB
                       </font>
                     </font>
                   </a>
@@ -53,12 +53,12 @@ const Footer = () => {
                 <li className="navigation--entry" role="menuitem">
                   <a
                     className="navigation--link"
-                    href="https://www.siwatec-gmbh.de/versandinformationen"
-                    title="Shipping Information"
+                    href="https://www.siwatec-gmbh.de/rechtliches#Widerrufsrecht"
+                    title="Widerrufsrecht"
                   >
                     <font style={{ verticalAlign: "inherit" }}>
                       <font style={{ verticalAlign: "inherit" }}>
-                        Shipping Information
+                        Widerrufsrecht
                       </font>
                     </font>
                   </a>
@@ -66,26 +66,12 @@ const Footer = () => {
                 <li className="navigation--entry" role="menuitem">
                   <a
                     className="navigation--link"
-                    href="https://www.siwatec-gmbh.de/agb"
-                    title="Conditions"
+                    href="https://www.siwatec-gmbh.de/rechtliches#Datenschutzerklaerung"
+                    title="Datenschutzerklaerung"
                   >
                     <font style={{ verticalAlign: "inherit" }}>
                       <font style={{ verticalAlign: "inherit" }}>
-                        Conditions
-                      </font>
-                    </font>
-                  </a>
-                </li>
-
-                <li className="navigation--entry" role="menuitem">
-                  <a
-                    className="navigation--link"
-                    href="https://www.siwatec-gmbh.de/datenschutz"
-                    title="data protection"
-                  >
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        data protection
+                        Datenschutzerklärung
                       </font>
                     </font>
                   </a>
@@ -94,11 +80,27 @@ const Footer = () => {
                 <li className="navigation--entry" role="menuitem">
                   <a
                     className="navigation--link"
-                    href="https://www.siwatec-gmbh.de/gewaehrleistung"
-                    title="Warranty"
+                    href="https://www.siwatec-gmbh.de/rechtliches#liefer-undversandbedingungen"
+                    title="Liefer- und Versandbedingungen"
                   >
                     <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>Warranty</font>
+                      <font style={{ verticalAlign: "inherit" }}>
+                        Liefer- und Versandbedingungen
+                      </font>
+                    </font>
+                  </a>
+                </li>
+
+                <li className="navigation--entry" role="menuitem">
+                  <a
+                    className="navigation--link"
+                    href="https://www.siwatec-gmbh.de/rechtliches"
+                    title="GarantieGewaehrleistung"
+                  >
+                    <font style={{ verticalAlign: "inherit" }}>
+                      <font style={{ verticalAlign: "inherit" }}>
+                        Garantie und Gewährleistung
+                      </font>
                     </font>
                   </a>
                 </li>
@@ -120,7 +122,9 @@ const Footer = () => {
                     title="Impressum"
                   >
                     <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>imprint</font>
+                      <font style={{ verticalAlign: "inherit" }}>
+                        Impressum
+                      </font>
                     </font>
                   </a>
                 </li>
@@ -131,22 +135,18 @@ const Footer = () => {
                     title="Über uns"
                   >
                     <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Über uns
-                      </font>
+                      <font style={{ verticalAlign: "inherit" }}>Über uns</font>
                     </font>
                   </a>
                 </li>
                 <li className="navigation--entry" role="menuitem">
                   <a
                     className="navigation--link"
-                    href="https://www.siwatec-gmbh.de/rechtliches"
-                    title="Rechtliches"
+                    href="https://www.siwatec-gmbh.de/faq"
+                    title="FAQ"
                   >
                     <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Rechtliches
-                      </font>
+                      <font style={{ verticalAlign: "inherit" }}>FAQ</font>
                     </font>
                   </a>
                 </li>
@@ -252,12 +252,15 @@ const Footer = () => {
                 </font>
               </font>
             </div>
-            <div className="column--content" style={{}}>
-              <a href="javascript:void(0)" title="Workshop">
+            <div className="column--conten" style={{}}>
+              <a href="">
+                <img src={touchFooter} alt="" />
+              </a>
+              {/* <a href="" title="Workshop">
                 <font style={{ verticalAlign: "inherit" }}>
                   <font style={{ verticalAlign: "inherit" }}>Workshop</font>
                 </font>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -281,7 +284,8 @@ const Footer = () => {
               <font style={{ verticalAlign: "inherit" }}>
                 <font style={{ verticalAlign: "inherit" }}>
                   {" "}
-                  Lieferzeit innerhalb Deutschlands 6-10 Werktage und für das Ausland 8-15 Werktage
+                  Lieferzeit innerhalb Deutschlands 6-10 Werktage und für das
+                  Ausland 8-15 Werktage
                 </font>
               </font>
             </p>

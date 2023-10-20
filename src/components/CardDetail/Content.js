@@ -23,7 +23,7 @@ const Content = () => {
             </h1>
             <meta
               itemProp="image"
-              content="https://www.jansen-versand.de/media/image/4a/63/0f/2222222_01mMkJzlnePrpFF.jpg"
+              content=""
             />
             <meta
               itemProp="image"
@@ -102,7 +102,7 @@ const Content = () => {
                     className="image--element"
                     data-img-large="https://www.jansen-versand.de/media/image/4d/c3/be/2222222_01mMkJzlnePrpFF_1280x1280.jpg"
                     data-img-small="https://www.jansen-versand.de/media/image/54/96/d9/2222222_01mMkJzlnePrpFF_285x285.jpg"
-                    data-img-original="https://www.jansen-versand.de/media/image/4a/63/0f/2222222_01mMkJzlnePrpFF.jpg"
+                    data-img-original=""
                     data-alt="Benzinmotor Kohler 6,5 PS inkl. Hydraulikpumpe, Hydraulikaggregat"
                   >
                     <span className="image--media">
@@ -200,7 +200,7 @@ const Content = () => {
                   </picture>
                 </a>
                 <a
-                  href="https://www.jansen-versand.de/media/image/4a/63/0f/2222222_01mMkJzlnePrpFF.jpg"
+                  href=""
                   title="Preview: Kohler 6.5 hp petrol engine including hydraulic pump, hydraulic unit"
                   className="thumbnail--link"
                 >

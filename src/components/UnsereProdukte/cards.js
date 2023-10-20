@@ -10,17 +10,17 @@ const Cards = () => {
           <div className="banner--container">
             <picture>
               <source
-                srcSet="https://www.jansen-versand.de/media/image/9f/2e/4f/Sonstiges2022_1280x1280.webp"
+                srcSet="https://siwatec-gmbh.de/resources/productpage/prodheader.png"
                 media="(min-width: 48em)"
                 type="image/webp"
               />
               <source
-                srcSet="https://www.jansen-versand.de/media/image/93/70/71/Sonstiges2022_1280x1280.png"
+                srcSet="https://siwatec-gmbh.de/resources/productpage/prodheader.png"
                 media="(min-width: 48em)"
               />
               <img
                 loading="lazy"
-                srcSet="https://www.jansen-versand.de/media/image/3a/35/6b/Sonstiges2022_800x800.png"
+                srcSet="https://siwatec-gmbh.de/resources/productpage/prodheadersmall.png"
                 alt="Unsere Produkte"
                 className="banner--img"
               />
@@ -64,7 +64,7 @@ const Cards = () => {
                 <input type="hidden" name="p" defaultValue={1} />
                 <label htmlFor="o" className="sort--label action--label">
                   <font style={{ verticalAlign: "inherit" }}>
-                    <font style={{ verticalAlign: "inherit" }}>Sorting</font>
+                    <font style={{ verticalAlign: "inherit" }}>Sortieren nach</font>
                   </font>
                 </label>
                 <div className="sort--select select-field">
@@ -78,10 +78,10 @@ const Cards = () => {
                     <option value={8} selected="selected">
                       relevance
                     </option>
-                    <option value={2}>popularity</option>
-                    <option value={3}>lowest price</option>
-                    <option value={4}>Highest price</option>
-                    <option value={5}>Item name</option>
+                    <option value={2}>Beliebtheit</option>
+                    <option value={3}>Niedrigster Preis</option>
+                    <option value={4}>Höchster Preis</option>
+                    <option value={5}>Alphabetisch</option>
                   </select>
                 </div>
               </form>
@@ -99,7 +99,7 @@ const Cards = () => {
                     method="get"
                     data-filter-form="true"
                     data-is-in-sidebar="false"
-                    data-listing-url="https://www.jansen-versand.de/widgets/listing/listingCount/sCategory/1000182150"
+                    data-listing-url=""
                     data-is-filtered={0}
                     data-load-facets="true"
                     data-instant-filter-result="true"
@@ -373,21 +373,21 @@ const Cards = () => {
                     <div className="product--info">
                       <Link
                         to="/product-detail"
-                        title="Petrol engine Kohler 6.5 HP including hydraulic pump, hydraulic unit"
+                        title="SunPower - 420 W MAXEON 3 Black"
                         className="product--image"
                       >
                         <span className="image--element">
                           <span className="image--media">
                             <picture>
                               <source
-                                srcSet="https://www.jansen-versand.de/media/image/01/63/e1/2222222_02FA74Adner6MS4_285x285.webp"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod1.png"
                                 type="image/webp"
                               />
                               <img
                                 loading="lazy"
-                                srcSet="https://www.jansen-versand.de/media/image/a0/37/05/2222222_02FA74Adner6MS4_285x285.jpg"
-                                alt="Petrol engine Kohler 6.5 HP including hydraulic pump, hydraulic unit"
-                                title="Petrol engine Kohler 6.5 HP including hydraulic pump, hydraulic unit"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod1.png"
+                                alt="SunPower - 420 W MAXEON 3 Black"
+                                title="SunPower - 420 W MAXEON 3 Black"
                               />
                             </picture>
                           </span>
@@ -396,12 +396,11 @@ const Cards = () => {
                       <Link
                         to="/product-detail"
                         className="product--title"
-                        title="Petrol engine Kohler 6.5 HP including hydraulic pump, hydraulic unit"
+                        title="SunPower - 420 W MAXEON 3 Black"
                       >
                         <font style={{ verticalAlign: "inherit" }}>
                           <font style={{ verticalAlign: "inherit" }}>
-                            Petrol engine Kohler 6.5 HP including hydraulic
-                            pump, hydraulic unit
+                            SunPower - 420 W MAXEON 3 Black
                           </font>
                         </font>
                       </Link>
@@ -413,7 +412,7 @@ const Cards = () => {
                             <span className="price--default is--nowrap">
                               <font style={{ verticalAlign: "inherit" }}>
                                 <font style={{ verticalAlign: "inherit" }}>
-                                  €449.00
+                                  349,90 €
                                 </font>
                               </font>
                             </span>
@@ -433,21 +432,21 @@ const Cards = () => {
                     <div className="product--info">
                       <Link
                         to="/product-detail"
-                        title="Manual side shift for Jansen mulchers, mowers, flail mulchers"
+                        title="LG Chem RESU 10H Prime Energiespeicher"
                         className="product--image"
                       >
                         <span className="image--element">
                           <span className="image--media">
                             <picture>
                               <source
-                                srcSet="https://www.jansen-versand.de/media/image/5a/24/c7/1777000_01_285x285.webp"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod2.png"
                                 type="image/webp"
                               />
                               <img
                                 loading="lazy"
-                                srcSet="https://www.jansen-versand.de/media/image/28/ca/2b/1777000_01_285x285.jpg"
-                                alt="Manual side shift for Jansen mulchers, mowers, flail mulchers"
-                                title="Manual side shift for Jansen mulchers, mowers, flail mulchers"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod2.png"
+                                alt="LG Chem RESU 10H Prime Energiespeicher"
+                                title="LG Chem RESU 10H Prime Energiespeicher"
                               />
                             </picture>
                           </span>
@@ -456,24 +455,14 @@ const Cards = () => {
                       <Link
                         to="/product-detail"
                         className="product--title"
-                        title="Manual side shift for Jansen mulchers, mowers, flail mulchers"
-                      >
+                        title="LG Chem RESU 10H Prime Energiespeicher">
                         <font style={{ verticalAlign: "inherit" }}>
                           <font style={{ verticalAlign: "inherit" }}>
-                            Manual side shift for Jansen mulchers, mowers, flail
-                            mulchers
+                            LG Chem RESU 10H Prime Energiespeicher
                           </font>
                         </font>
                       </Link>
-                      <div className="product--rating-container">
-                        <span className="product--rating">
-                          <i className="icon--star" />
-                          <i className="icon--star" />
-                          <i className="icon--star" />
-                          <i className="icon--star" />
-                          <i className="icon--star" />
-                        </span>
-                      </div>
+                      <div className="product--rating-container"></div>
                       <div className="product--price-info">
                         <div className="price--unit" title="Contents"></div>
                         <div className="product--price-outer">
@@ -481,7 +470,7 @@ const Cards = () => {
                             <span className="price--default is--nowrap">
                               <font style={{ verticalAlign: "inherit" }}>
                                 <font style={{ verticalAlign: "inherit" }}>
-                                  €349.00
+                                  4990,99 €
                                 </font>
                               </font>
                             </span>
@@ -501,21 +490,21 @@ const Cards = () => {
                     <div className="product--info">
                       <Link
                         to="/product-detail"
-                        title="Adapter, quick coupler MS-01 for earth drilling rig Jansen HBG-1500 & HBG-2000"
+                        title="Viessmann Vitosol 200-FM SH2G Flachkollektor"
                         className="product--image"
                       >
                         <span className="image--element">
                           <span className="image--media">
                             <picture>
                               <source
-                                srcSet="https://www.jansen-versand.de/media/image/26/9b/5f/1776010_01_285x285.webp"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod3.png"
                                 type="image/webp"
                               />
                               <img
                                 loading="lazy"
-                                srcSet="https://www.jansen-versand.de/media/image/ae/63/bd/1776010_01_285x285.jpg"
-                                alt="Adapter, quick coupler MS-01 for earth drilling rig Jansen HBG-1500 & HBG-2000"
-                                title="Adapter, quick coupler MS-01 for earth drilling rig Jansen HBG-1500 & HBG-2000"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod3.png"
+                                alt="Viessmann Vitosol 200-FM SH2G Flachkollektor"
+                                title="Viessmann Vitosol 200-FM SH2G Flachkollektor"
                               />
                             </picture>
                           </span>
@@ -524,12 +513,11 @@ const Cards = () => {
                       <Link
                         to="/product-detail"
                         className="product--title"
-                        title="Adapter, quick coupler MS-01 for earth drilling rig Jansen HBG-1500 & HBG-2000"
+                        title="Viessmann Vitosol 200-FM SH2G Flachkollektor"
                       >
                         <font style={{ verticalAlign: "inherit" }}>
                           <font style={{ verticalAlign: "inherit" }}>
-                            Adapter, quick coupler MS-01 for earth drilling rig
-                            Jansen HBG-1500 &amp; HBG-2000
+                            Viessmann Vitosol 200-FM SH2G Flachkollektor
                           </font>
                         </font>
                       </Link>
@@ -541,7 +529,7 @@ const Cards = () => {
                             <span className="price--default is--nowrap">
                               <font style={{ verticalAlign: "inherit" }}>
                                 <font style={{ verticalAlign: "inherit" }}>
-                                  €149.00
+                                  790,99 €
                                 </font>
                               </font>
                             </span>
@@ -561,21 +549,21 @@ const Cards = () => {
                     <div className="product--info">
                       <Link
                         to="/product-detail"
-                        title="Adapter, quick coupler MS-03 for Jansen HBG-1500 & HBG-2000 earth drilling rig"
+                        title="SMA Sunny Boy Storage 5.0 NoWifi + BYD 5.1 (HVS)"
                         className="product--image"
                       >
                         <span className="image--element">
                           <span className="image--media">
                             <picture>
                               <source
-                                srcSet="https://www.jansen-versand.de/media/image/aa/25/d1/1776011_01_285x285.webp"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod4.png"
                                 type="image/webp"
                               />
                               <img
                                 loading="lazy"
-                                srcSet="https://www.jansen-versand.de/media/image/fb/0b/78/1776011_01_285x285.jpg"
-                                alt="Adapter, quick coupler MS-03 for Jansen HBG-1500 & HBG-2000 earth drilling rig"
-                                title="Adapter, quick coupler MS-03 for Jansen HBG-1500 & HBG-2000 earth drilling rig"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod4.png"
+                                alt="SMA Sunny Boy Storage 5.0 NoWifi + BYD 5.1 (HVS)"
+                                title="SMA Sunny Boy Storage 5.0 NoWifi + BYD 5.1 (HVS)"
                               />
                             </picture>
                           </span>
@@ -584,12 +572,11 @@ const Cards = () => {
                       <Link
                         to="/product-detail"
                         className="product--title"
-                        title="Adapter, quick coupler MS-03 for Jansen HBG-1500 & HBG-2000 earth drilling rig"
+                        title="SMA Sunny Boy Storage 5.0 NoWifi + BYD 5.1 (HVS)"
                       >
                         <font style={{ verticalAlign: "inherit" }}>
                           <font style={{ verticalAlign: "inherit" }}>
-                            Adapter, quick coupler MS-03 for Jansen HBG-1500
-                            &amp; HBG-2000 earth drilling rig
+                            SMA Sunny Boy Storage 5.0 NoWifi + BYD 5.1 (HVS)
                           </font>
                         </font>
                       </Link>
@@ -601,7 +588,7 @@ const Cards = () => {
                             <span className="price--default is--nowrap">
                               <font style={{ verticalAlign: "inherit" }}>
                                 <font style={{ verticalAlign: "inherit" }}>
-                                  €169.00
+                                  5990,99 €
                                 </font>
                               </font>
                             </span>
@@ -621,21 +608,21 @@ const Cards = () => {
                     <div className="product--info">
                       <Link
                         to="/product-detail"
-                        title="Adapter for earth drilling machine HBG-1500 & HBG-2000, pallet fork, forklift fork"
+                        title="LG Electronics Solarmodul 430Wp E6 NeON H"
                         className="product--image"
                       >
                         <span className="image--element">
                           <span className="image--media">
                             <picture>
                               <source
-                                srcSet="https://www.jansen-versand.de/media/image/a9/b6/b7/1776020_01Iog9DgP1YkZsc_285x285.webp"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod5.png"
                                 type="image/webp"
                               />
                               <img
                                 loading="lazy"
-                                srcSet="https://www.jansen-versand.de/media/image/b8/a4/59/1776020_01Iog9DgP1YkZsc_285x285.jpg"
-                                alt="Adapter for earth drilling machine HBG-1500 & HBG-2000, pallet fork, forklift fork"
-                                title="Adapter for earth drilling machine HBG-1500 & HBG-2000, pallet fork, forklift fork"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod5.png"
+                                alt="LG Electronics Solarmodul 430Wp E6 NeON H"
+                                title="LG Electronics Solarmodul 430Wp E6 NeON H"
                               />
                             </picture>
                           </span>
@@ -644,12 +631,11 @@ const Cards = () => {
                       <Link
                         to="/product-detail"
                         className="product--title"
-                        title="Adapter for earth drilling machine HBG-1500 & HBG-2000, pallet fork, forklift fork"
+                        title="LG Electronics Solarmodul 430Wp E6 NeON H"
                       >
                         <font style={{ verticalAlign: "inherit" }}>
                           <font style={{ verticalAlign: "inherit" }}>
-                            Adapter for earth drilling machine HBG-1500 &amp;
-                            HBG-2000, pallet fork, forklift fork
+                            LG Electronics Solarmodul 430Wp E6 NeON H
                           </font>
                         </font>
                       </Link>
@@ -661,7 +647,7 @@ const Cards = () => {
                             <span className="price--default is--nowrap">
                               <font style={{ verticalAlign: "inherit" }}>
                                 <font style={{ verticalAlign: "inherit" }}>
-                                  €169.00
+                                  299,99 €
                                 </font>
                               </font>
                             </span>
@@ -681,21 +667,21 @@ const Cards = () => {
                     <div className="product--info">
                       <Link
                         to="/product-detail"
-                        title="Log lifter for log splitters Jansen HS-20H110, HS-20H110E and HS-20H110K"
+                        title="SMA Sunny Tripower x 12-50, STP 12-50 Solar Wechselrichter"
                         className="product--image"
                       >
                         <span className="image--element">
                           <span className="image--media">
                             <picture>
                               <source
-                                srcSet="https://www.jansen-versand.de/media/image/a3/88/e3/1325107_01Y5fBmT4AlJ7ml_285x285.webp"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod6.png"
                                 type="image/webp"
                               />
                               <img
                                 loading="lazy"
-                                srcSet="https://www.jansen-versand.de/media/image/69/be/5e/1325107_01Y5fBmT4AlJ7ml_285x285.jpg"
-                                alt="Log lifter for log splitters Jansen HS-20H110, HS-20H110E and HS-20H110K"
-                                title="Log lifter for log splitters Jansen HS-20H110, HS-20H110E and HS-20H110K"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod6.png"
+                                alt="SMA Sunny Tripower x 12-50, STP 12-50 Solar Wechselrichter"
+                                title="SMA Sunny Tripower x 12-50, STP 12-50 Solar Wechselrichter"
                               />
                             </picture>
                           </span>
@@ -704,12 +690,11 @@ const Cards = () => {
                       <Link
                         to="/product-detail"
                         className="product--title"
-                        title="Log lifter for log splitters Jansen HS-20H110, HS-20H110E and HS-20H110K"
+                        title="SMA Sunny Tripower x 12-50, STP 12-50 Solar Wechselrichter"
                       >
                         <font style={{ verticalAlign: "inherit" }}>
                           <font style={{ verticalAlign: "inherit" }}>
-                            Log lifter for log splitters Jansen HS-20H110,
-                            HS-20H110E and HS-20H110K
+                            SMA Sunny Tripower x 12-50, STP 12-50 Solar Wechselrichter
                           </font>
                         </font>
                       </Link>
@@ -721,7 +706,7 @@ const Cards = () => {
                             <span className="price--default is--nowrap">
                               <font style={{ verticalAlign: "inherit" }}>
                                 <font style={{ verticalAlign: "inherit" }}>
-                                  €149.00
+                                  2290,99 €
                                 </font>
                               </font>
                             </span>
@@ -741,21 +726,21 @@ const Cards = () => {
                     <div className="product--info">
                       <Link
                         to="/product-detail"
-                        title="Stick holder for your electric vehicle, senior mobility vehicle, walking stick holder"
+                        title="LG Chem RESU 6.5 Energiespeicher"
                         className="product--image"
                       >
                         <span className="image--element">
                           <span className="image--media">
                             <picture>
                               <source
-                                srcSet="https://www.jansen-versand.de/media/image/1d/74/29/1175102_01C1sPqZJUciDld_285x285.webp"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod7.png"
                                 type="image/webp"
                               />
                               <img
                                 loading="lazy"
-                                srcSet="https://www.jansen-versand.de/media/image/d9/bd/af/1175102_01C1sPqZJUciDld_285x285.jpg"
-                                alt="Stick holder for your electric vehicle, senior mobility vehicle, walking stick holder"
-                                title="Stick holder for your electric vehicle, senior mobility vehicle, walking stick holder"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod7.png"
+                                alt="LG Chem RESU 6.5 Energiespeicher"
+                                title="LG Chem RESU 6.5 Energiespeicher"
                               />
                             </picture>
                           </span>
@@ -764,23 +749,15 @@ const Cards = () => {
                       <Link
                         to="/product-detail"
                         className="product--title"
-                        title="Stick holder for your electric vehicle, senior mobility vehicle, walking stick holder"
+                        title="LG Chem RESU 6.5 Energiespeicher"
                       >
                         <font style={{ verticalAlign: "inherit" }}>
                           <font style={{ verticalAlign: "inherit" }}>
-                            Stick holder for your electric vehicle, senior
-                            mobility vehicle, walking stick holder
+                            LG Chem RESU 6.5 Energiespeicher
                           </font>
                         </font>
                       </Link>
                       <div className="product--rating-container">
-                        <span className="product--rating">
-                          <i className="icon--star" />
-                          <i className="icon--star" />
-                          <i className="icon--star" />
-                          <i className="icon--star" />
-                          <i className="icon--star" />
-                        </span>
                       </div>
                       <div className="product--price-info">
                         <div className="price--unit" title="Contents"></div>
@@ -789,7 +766,7 @@ const Cards = () => {
                             <span className="price--default is--nowrap">
                               <font style={{ verticalAlign: "inherit" }}>
                                 <font style={{ verticalAlign: "inherit" }}>
-                                  €39.95
+                                  3690,99 €
                                 </font>
                               </font>
                             </span>
@@ -809,21 +786,21 @@ const Cards = () => {
                     <div className="product--info">
                       <Link
                         to="/product-detail"
-                        title="Hunting pulpit, mobile, hydraulic lifting, fully equipped"
+                        title="Felicity-Solar 48V Batteriespeicher 8,7 kWh"
                         className="product--image"
                       >
                         <span className="image--element">
                           <span className="image--media">
                             <picture>
                               <source
-                                srcSet="https://www.jansen-versand.de/media/image/1c/05/e3/1111111_01Dsppk7ZNFUC3O_285x285.webp"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod8.png"
                                 type="image/webp"
                               />
                               <img
                                 loading="lazy"
-                                srcSet="https://www.jansen-versand.de/media/image/17/c4/17/1111111_01Dsppk7ZNFUC3O_285x285.jpg"
-                                alt="Hunting pulpit, mobile, hydraulic lifting, fully equipped"
-                                title="Hunting pulpit, mobile, hydraulic lifting, fully equipped"
+                                srcSet="http://siwatec-gmbh.de/resources/productpage/unsereprodukte/prod8.png"
+                                alt="Felicity-Solar 48V Batteriespeicher 8,7 kWh"
+                                title="Felicity-Solar 48V Batteriespeicher 8,7 kWh"
                               />
                             </picture>
                           </span>
@@ -832,12 +809,11 @@ const Cards = () => {
                       <Link
                         to="/product-detail"
                         className="product--title"
-                        title="Hunting pulpit, mobile, hydraulic lifting, fully equipped"
+                        title="Felicity-Solar 48V Batteriespeicher 8,7 kWh"
                       >
                         <font style={{ verticalAlign: "inherit" }}>
                           <font style={{ verticalAlign: "inherit" }}>
-                            Hunting pulpit, mobile, hydraulic lifting, fully
-                            equipped
+                            Felicity-Solar 48V Batteriespeicher 8,7 kWh
                           </font>
                         </font>
                       </Link>
@@ -867,301 +843,80 @@ const Cards = () => {
                 <form
                   className="action--per-page action--content block"
                   method="get"
-                  data-action-form="true"
-                >
+                  data-action-form="true">
                   <input type="hidden" name="p" defaultValue={1} />
                   <label htmlFor="n" className="per-page--label action--label">
                     <font style={{ verticalAlign: "inherit" }}>
                       <font style={{ verticalAlign: "inherit" }}>
-                        Items per page
+                        8 Elemente verfügbar
                       </font>
                     </font>
                   </label>
-                  <div className="per-page--select select-field">
-                    <select
-                      id="n"
-                      name="n"
-                      className="per-page--field action--field"
-                      data-auto-submit="true"
-                      data-loadingindicator="false"
-                    >
-                      <option value={12}>12</option>
-                      <option value={24}>24</option>
-                      <option value={48} selected="selected">
-                        48
-                      </option>
-                      <option value={72}>72</option>
-                    </select>
-                  </div>
                 </form>
               </div>
             </div>
           </div>
-          <div
-            className="hero-unit category--teaser panel has--border is--rounded bottomtext mobilejstext"
-            id="bottomtext"
-          >
+          <div className="hero-unit category--teaser panel has--border is--rounded bottomtext mobilejstext"
+            id="bottomtext">
             <h1 className="hero--headline panel--title">
               <font style={{ verticalAlign: "inherit" }}>
                 <font style={{ verticalAlign: "inherit" }}>
-                  Unsere Produkte
+                  Innovative Solartechnik für eine nachhaltige Energiezukunft
                 </font>
               </font>
             </h1>
             <h1 className="hero--headline panel--title teaser--title-mobile">
               Sonstiges
-            </h1>{" "}
+            </h1>
             <div className="hero--text panel--body is--wide">
               <div className="teaser--text-long">
                 <p className="MsoNormal" style={{ lineHeight: "19.5px" }}>
-                  <strong>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Our machines are suitable for different areas of
-                        application and users.{" "}
-                      </font>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        They are used and recommended in the following areas and
-                        facilities, among others:
-                      </font>
-                    </font>
-                  </strong>
+                <strong>
+                Transformieren Sie Ihre Energiegewinnung durch die unermessliche Kraft der Sonne.
+                Von erstklassigen Photovoltaikanlagen bis zu robusten Wechselrichtern bieten wir Ihnen hochwertige Lösungen im Bereich erneuerbarer Energien.
+                Für ein nachhaltiges Morgen: Unsere Solartechnikprodukte sind speziell für diverse Einsatzbereiche und Anwendungen konzipiert. Sie finden Anwendung und werden empfohlen in:
+                </strong>
                 </p>
                 <ul>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Building authorities
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Construction yards
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Highway maintenance departments
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Fire departments
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>Airports</font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Forestry departments
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Forestry companies
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Leisure facilities
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Cemetery offices
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Garden offices
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Building management
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Municipal administrations
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        trade offices
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Parks Departments
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Property manager
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Land registry offices
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Church administrations
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Municipal companies
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        District administrations
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Cultural institutions
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>Farms</font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Natural parks
-                      </font>
-                    </font>
-                  </li>
-                  <li>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Nursing homes
-                      </font>
-                    </font>
-                  </li>
-                  <li>Polizei</li>
-                  <li>Rettungsdienste</li>
-                  <li>Schulämter</li>
-                  <li>Seniorenheime</li>
-                  <li>Sozialeinrichtungen</li>
-                  <li>Sportämter</li>
-                  <li>Sportstättenbetreiber</li>
-                  <li>Stadien</li>
-                  <li>Stadtplanungsämter</li>
-                  <li>Stadtverwaltungen</li>
-                  <li>Stadtwerke</li>
-                  <li>Straßenmeistereien</li>
-                  <li>Technische Hilfswerke</li>
-                  <li>Tourismusämter</li>
-                  <li>Unikliniken</li>
-                  <li>Veranstaltungshallen</li>
-                  <li>Verkehrsämter</li>
-                  <li>Verkehrsbetriebe</li>
-                  <li>Zoos</li>
-                  <li>Zweckverbände</li>
-                  <li>u.v.m.&nbsp;</li>
+                <li>Installationen von Photovoltaikanlagen</li>
+                <li>Projekten mit Solarzellen</li>
+                <li>Einrichtungen mit Solarmodulen/Solarpanelen</li>
+                <li>Systemen, die Wechselrichter benötigen</li>
+                <li>Orten mit solarthermischen Kollektoren</li>
+                <li>Anlagen, die Windschutztunnel für Solarfelder verwenden</li>
+                <li>Umgebungen, die Solarbatterien oder Energiespeichersysteme nutzen</li>
+                <li>Projekten, die Batteriespeichersysteme einsetzen</li>
+                <li>Off-Grid-Systemen in abgelegenen Gebieten</li>
+                <li>Gewerblichen Einrichtungen, die Nachhaltigkeit anstreben</li>
+                <li>Landwirtschaftlichen Betrieben für solare Bewässerungssysteme</li>
+                <li>Wohngebäuden mit grünen Dächern oder Fassaden</li>
+                <li>Mobilen Stationen oder Fahrzeugen, die autarke Energiequellen benötigen</li>
+                <li>Gemeinschaftsprojekten im Rahmen städtischer Erneuerungsinitiativen</li>
                 </ul>
               </div>
               <div className="teaser--text-mobile">
                 <p className="MsoNormal" style={{ lineHeight: "19.5px" }}>
-                  <strong>
-                    Unsere Maschinen sind für unterschiedliche
-                    Anwendungsbereiche und Anwender geeignet. So werden sie
-                    unter anderem in folgenden Bereichen und Einrichtungen
-                    eingesetzt und empfohlen:
-                  </strong>
+                <strong>
+                Transformieren Sie Ihre Energiegewinnung durch die unermessliche Kraft der Sonne.
+                Von erstklassigen Photovoltaikanlagen bis zu robusten Wechselrichtern bieten wir Ihnen hochwertige Lösungen im Bereich erneuerbarer Energien.
+                Für ein nachhaltiges Morgen: Unsere Solartechnikprodukte sind speziell für diverse Einsatzbereiche und Anwendungen konzipiert. Sie finden Anwendung und werden empfohlen in:
+                </strong>
                 </p>
                 <ul>
-                  <li>Bauämter</li>
-                  <li>Bauhöfe</li>
-                  <li>Autobahnmeistereien</li>
-                  <li>Feuerwehren</li>
-                  <li>Flughäfen</li>
-                  <li>Forstämter</li>
-                  <li>Forstbetriebe</li>
-                  <li>Freizeitanlagen</li>
-                  <li>Friedhofsämter</li>
-                  <li>Gartenämter</li>
-                  <li>Gebäudemanagement</li>
-                  <li>Gemeindeverwaltungen</li>
-                  <li>Gewerbeämter</li>
-                  <li>Grünflächenämter</li>
-                  <li>Hausverwalter</li>
-                  <li>Katasterämter</li>
-                  <li>Kirchenverwaltungen</li>
-                  <li>Kommunale Betriebe</li>
-                  <li>Kreisverwaltungen</li>
-                  <li>Kultureinrichtungen</li>
-                  <li>Landwirtschaftsbetriebe</li>
-                  <li>Naturparks</li>
-                  <li>Pflegeheime</li>
-                  <li>Polizei</li>
-                  <li>Rettungsdienste</li>
-                  <li>Schulämter</li>
-                  <li>Seniorenheime</li>
-                  <li>Sozialeinrichtungen</li>
-                  <li>Sportämter</li>
-                  <li>Sportstättenbetreiber</li>
-                  <li>Stadien</li>
-                  <li>Stadtplanungsämter</li>
-                  <li>Stadtverwaltungen</li>
-                  <li>Stadtwerke</li>
-                  <li>Straßenmeistereien</li>
-                  <li>Technische Hilfswerke</li>
-                  <li>Tourismusämter</li>
-                  <li>Unikliniken</li>
-                  <li>Veranstaltungshallen</li>
-                  <li>Verkehrsämter</li>
-                  <li>Verkehrsbetriebe</li>
-                  <li>Zoos</li>
-                  <li>Zweckverbände</li>
-                  <li>u.v.m.&nbsp;</li>
+                <li>Installationen von Photovoltaikanlagen</li>
+                <li>Projekten mit Solarzellen</li>
+                <li>Einrichtungen mit Solarmodulen/Solarpanelen</li>
+                <li>Systemen, die Wechselrichter benötigen</li>
+                <li>Orten mit solarthermischen Kollektoren</li>
+                <li>Anlagen, die Windschutztunnel für Solarfelder verwenden</li>
+                <li>Umgebungen, die Solarbatterien oder Energiespeichersysteme nutzen</li>
+                <li>Projekten, die Batteriespeichersysteme einsetzen</li>
+                <li>Off-Grid-Systemen in abgelegenen Gebieten</li>
+                <li>Gewerblichen Einrichtungen, die Nachhaltigkeit anstreben</li>
+                <li>Landwirtschaftlichen Betrieben für solare Bewässerungssysteme</li>
+                <li>Wohngebäuden mit grünen Dächern oder Fassaden</li>
+                <li>Mobilen Stationen oder Fahrzeugen, die autarke Energiequellen benötigen</li>
+                <li>Gemeinschaftsprojekten im Rahmen städtischer Erneuerungsinitiativen</li>
                 </ul>
               </div>
             </div>
