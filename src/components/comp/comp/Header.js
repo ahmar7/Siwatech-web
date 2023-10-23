@@ -135,7 +135,7 @@ const Header = () => {
               >
                 <font style={{ verticalAlign: "inherit" }}>
                   <font style={{ verticalAlign: "inherit" }}>
-                    +49 241 94577181
+                    +49  241 94577181
                   </font>
                 </font>
               </a>{" "}
@@ -154,7 +154,52 @@ const Header = () => {
               </div>
             </div>
           </div>
+          <nav className="shop--navigation block-group">
+            <ul className="navigation--list block-group" role="menubar">
+              <li
+                onClick={activeToggle}
+                className="navigation--entry entry--menu-left"
+                role="menuitem"
+              >
+                <a
+                  className="entry--link entry--trigger btn is--icon-left"
+                  href="#offcanvas--left"
+                  data-offcanvas="true"
+                  data-offcanvasselector=".sidebar-main"
+                  aria-label="menu"
+                >
+                  <i className="icon--menu" />
+                </a>
+              </li>
+              <li
+                className="navigation--entry entry--search"
+                role="menuitem"
+                data-search="true"
+                aria-haspopup="true"
+                data-minlength={3}
+              >
+                <a
+                  className="btn entry--link entry--trigger"
+                  href="#show-hide--search"
+                  title="Show/close search"
+                  aria-label="Show/close search"
+                >
+                  <i className="icon--search" />
+                  <span className="search--display">
+                    <font style={{ verticalAlign: "inherit" }}>
+                      <font style={{ verticalAlign: "inherit" }}>Seek</font>
+                    </font>
+                  </span>
+                </a>
 
+                <div className="main-search--results" />
+              </li>
+
+              <li className="lis">
+                <input type="text" placeholder="Search term..." />
+              </li>
+            </ul>
+          </nav>
           <div className="container--ajax-cart" data-collapse-cart="true" />
         </div>
       </header>

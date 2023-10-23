@@ -1,0 +1,4 @@
+- replace image in footer
+- remove search term in upper right corner
+- if you have to set titles and favicon let me know
+I will do if I can
