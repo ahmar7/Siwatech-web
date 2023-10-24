@@ -6,6 +6,9 @@ import MainBody from "../components/Rechtliches/mainBody";
 import Top from "../components/GoTop/GoTop";
 
 const Rechtliches = () => {
+  useEffect(() => {
+    document.title = "SIWATEC - Rechtliches";
+  });
   let pageName = "Rechtliches";
   return (
     <>

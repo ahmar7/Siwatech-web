@@ -6,6 +6,9 @@ import MainBody from "../components/Kontakt/mainBody";
 import Top from "../components/GoTop/GoTop";
 
 const Kontakt = () => {
+  useEffect(() => {
+    document.title = "SIWATEC - Kontakt";
+  });
   let pageName = "Kontakt";
   return (
     <>

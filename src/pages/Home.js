@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Layout/Header";
 import Banner from "../components/Home/Banner";
 import CardSlider from "../components/Home/CardSlider";
@@ -7,6 +7,9 @@ import Footer from "../Layout/Footer";
 import Top from "../components/GoTop/GoTop";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "SIWATEC - Home";
+  });
   return (
     <>
       <Top />

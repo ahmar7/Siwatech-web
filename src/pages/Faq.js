@@ -6,6 +6,9 @@ import MainBody from "../components/Faq/mainBody";
 import Top from "../components/GoTop/GoTop";
 
 const Faq = () => {
+  useEffect(() => {
+    document.title = "SIWATEC - Faq";
+  });
   let pageName = "Faq";
   return (
     <>

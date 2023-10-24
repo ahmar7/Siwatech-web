@@ -6,6 +6,9 @@ import MainBody from "../components/Uberuns/mainBody";
 import Top from "../components/GoTop/GoTop";
 
 const Uberuns = () => {
+  useEffect(() => {
+    document.title = "SIWATEC - Über uns";
+  });
   let pageName = "Über uns";
   return (
     <>

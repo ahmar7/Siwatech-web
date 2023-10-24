@@ -8,6 +8,9 @@ import Top from "../components/GoTop/GoTop";
 // import MainBody from "../../components/Miscellaneous/mainBody";
 
 const UnsereProdukte = () => {
+  useEffect(() => {
+    document.title = "SIWATEC - Unsere Produkte";
+  });
   let pageName = "Unsere Produkte";
   return (
     <>

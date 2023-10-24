@@ -6,6 +6,9 @@ import MainBody from "../../components/Impressum/mainBody";
 import Top from "../../components/GoTop/GoTop";
 
 const Impressum = () => {
+  useEffect(() => {
+    document.title = "SIWATEC - Impressum";
+  });
   let pageName = "Impressum";
   return (
     <>
